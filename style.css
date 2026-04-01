@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #1e3c72, #6a11cb);
+  color: white;
+  text-align: center;
+}
+
+.screen {
+  display: none;
+  padding: 50px;
+}
+
+.active {
+  display: block;
+}
+
+h1, h2 {
+  animation: fadeIn 1s ease;
+}
+
+.buttons button {
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background: #4CAF50;
+  color: white;
+}
+
+#noBtn {
+  background: #f44336;
+  color: white;
+  position: absolute;
+}
+
+#warning {
+  margin-top: 20px;
+  color: pink;
+}
+
+.gifts button {
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 15px;
+  background: pink;
+  border: none;
+  font-size: 16px;
+}
+
+.gallery img {
+  width: 120px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.sign {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
